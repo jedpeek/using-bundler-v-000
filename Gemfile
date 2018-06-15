@@ -9,8 +9,6 @@ source "https://rubygems.org"
   gem "awesome_print", "git@github\.com:awesome\-print\/awesome_print\.git"
 end
 
-group :development do
-  gem "pry"
-end
+gem "pry", :group => "development"
 
 require_relative '../config/environment'
