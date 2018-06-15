@@ -12,3 +12,6 @@ gem "pry", :group => "development"
 
 require_relative '../config/environment'
 require_relative '../bin/run.rb'
+
+require 'bundler/setup'
+Bundler.require(:default, :development)
