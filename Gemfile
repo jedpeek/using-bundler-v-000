@@ -9,5 +9,5 @@ source "https://rubygems.org"
   gem "pry", :group => "development"
 
   group :test do
-    gem "rspec"
+    gem 'rspec'
   end
