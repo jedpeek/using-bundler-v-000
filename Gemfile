@@ -1,4 +1,4 @@
-
+Bundler.require(:default, :development)
 group :default do
 source "https://rubygems.org"
   gem "rspec"
@@ -14,4 +14,3 @@ require_relative '../config/environment'
 require_relative '../bin/run.rb'
 
 require 'bundler/setup'
-Bundler.require(:default, :development)
