@@ -1,5 +1,3 @@
-require 'bundler/setup'
-Bundler.require(:default, :development)
 
 group :default do
 source "https://rubygems.org"
